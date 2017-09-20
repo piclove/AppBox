@@ -1,0 +1,40 @@
+﻿
+.highlight {
+    font-weight: bold;
+    color: Red;
+}
+
+body.theme-neptune .topbar {
+    background-color: #005999!important;
+}
+
+    body.theme-neptune .topbar .x-toolbar-text {
+        color: #fff;
+        font-weight: bold;
+    }
+
+        body.theme-neptune .topbar .x-toolbar-text span.label {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            font-weight: normal;
+        }
+
+    body.theme-neptune .topbar .x-toolbar-separator {
+        border-left-color: #00345A;
+    }
+
+    body.theme-neptune .topbar .x-btn-default-toolbar-small {
+        background-color: transparent;
+        background-image: none !important;
+        border-width: 0 !important;
+    }
+
+    body.theme-neptune .topbar .x-btn-default-toolbar-small-over,
+    body.theme-neptune .topbar .x-btn-default-toolbar-small-menu-active {
+        background-color: #add2ed;
+    }
+
+        body.theme-neptune .topbar .x-btn-default-toolbar-small-over .x-btn-inner,
+        body.theme-neptune .topbar .x-btn-default-toolbar-small-menu-active .x-btn-inner {
+            color: #157fcc;
+        }
