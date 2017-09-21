@@ -1,0 +1,14 @@
+D:\工作\GitHub\AppBox\AppBox\bin\AppBox.dll
+D:\工作\GitHub\AppBox\AppBox\bin\AppBox.pdb
+D:\工作\GitHub\AppBox\AppBox\bin\EntityFramework.dll
+D:\工作\GitHub\AppBox\AppBox\bin\EntityFramework.Extended.dll
+D:\工作\GitHub\AppBox\AppBox\bin\EntityFramework.SqlServer.dll
+D:\工作\GitHub\AppBox\AppBox\bin\FineUI.dll
+D:\工作\GitHub\AppBox\AppBox\bin\Newtonsoft.Json.dll
+D:\工作\GitHub\AppBox\AppBox\bin\EntityFramework.xml
+D:\工作\GitHub\AppBox\AppBox\bin\EntityFramework.Extended.xml
+D:\工作\GitHub\AppBox\AppBox\bin\EntityFramework.SqlServer.xml
+D:\工作\GitHub\AppBox\AppBox\bin\FineUI.xml
+D:\工作\GitHub\AppBox\AppBox\bin\Newtonsoft.Json.xml
+D:\工作\GitHub\AppBox\AppBox\obj\Debug\AppBox.dll
+D:\工作\GitHub\AppBox\AppBox\obj\Debug\AppBox.pdb

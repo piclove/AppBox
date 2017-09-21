@@ -8,9 +8,10 @@ namespace AppBox
 {
     public class AppBoxContext : DbContext
     {
-        //public AppBoxContext() : base("MySQL")
-        //{
-        //}
+        public AppBoxContext()
+            : base("Default")
+        {
+        }
 
         public DbSet<Config> Configs { get; set; }
         public DbSet<Dept> Depts { get; set; }
@@ -21,6 +22,7 @@ namespace AppBox
         public DbSet<Log> Logs { get; set; }
         public DbSet<Power> Powers { get; set; }
         public DbSet<Menu> Menus { get; set; }
+        public DbSet<Hc> Hcs { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

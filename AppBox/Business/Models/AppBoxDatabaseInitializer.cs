@@ -6,7 +6,10 @@ using System.Data.Entity;
 
 namespace AppBox
 {
-    public class AppBoxDatabaseInitializer : DropCreateDatabaseAlways<AppBoxContext>  // DropCreateDatabaseAlways<AppBoxContext>  DropCreateDatabaseIfModelChanges<AppBoxContext>
+    //CreateDatabaseIfNotExists<AppBoxContext> 如果不存在则创建
+    //DropCreateDatabaseAlways<AppBoxContext>  每次都重建
+    //DropCreateDatabaseIfModelChanges<AppBoxContext>如果修改了则重建
+    public class AppBoxDatabaseInitializer : CreateDatabaseIfNotExists<AppBoxContext>  // DropCreateDatabaseAlways<AppBoxContext>  DropCreateDatabaseIfModelChanges<AppBoxContext>
     {
         protected override void Seed(AppBoxContext context)
         {
